@@ -1,0 +1,160 @@
+/* General Styles */
+Body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-bottom: 80px;
+}
+/* Smooth Scrolling */
+html{
+    scroll-behavior: smooth;
+}
+/* Scrolls to header not link */
+:root{
+    scroll-padding-top: 100px;
+}
+/* Header Styles */
+h1, h2{
+    text-align: center;
+    font-weight: 600;
+}
+/* Navigation Bar */
+header{
+    background: #009A44;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+/* ul Style */
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* ul li Style */
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+/* ul li Hover Style */
+nav ul li a:hover{
+    color: #F5A623;
+}
+/* Hero Section (Introduction) */
+#hero{
+    background: url('../images/und-campus.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+    margin-top: 70px;
+}
+/* Hero h2 */
+#hero h2{
+    font-size: 2.5rem;
+}
+/* Hero p */
+#hero p{
+    font-size: 1.2rem;
+}
+/* Hero a */
+#hero a{
+    display: inline-block;
+    background: #F5A623;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 1.1rem;
+}
+/* Hero a Hover Style*/
+#hero a:hover{
+    background: #009A44;
+}
+/* Sections */
+section{
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+    background:white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    margin-bottom: 20px;
+}
+/* Projects Section */
+#projects ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+/* Spacing Between Projects */
+#projects ul li{
+    margin: 10px 0;
+}
+/* UND Green Links */
+#projects ul li a{
+    text-decoration: none;
+    color: #009A44;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    font-weight: bold;
+}
+/* Hover for Links */
+#projects ul li a:hover{
+    color: #F5A623;
+}
+/* Footer */
+footer{
+    text-align: center;
+    background: #009A44;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 0.9rem;
+}
+/* Button Styling */
+button, .download-btn {
+    background-color: #F5A623;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+/* Hover Effect for Button */
+button:hover, .download-btn:hover {
+    background-color: #009A44;
+    transform: scale(1.05);
+}
+/* Button Focus State (for accessibility) */
+button:focus, .download-btn:focus {
+    outline:none;
+    box-shadow: 0 0 5px rgba(255, 165, 35, 0.8);
+}
+/* Remove underline from the text in the download resume button */
+button a {
+    text-decoration: none;
+    color: white; /* Ensure the text is white */
+}
+
+
+
