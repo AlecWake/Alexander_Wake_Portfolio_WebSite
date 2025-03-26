@@ -13,7 +13,7 @@ This is my personal portfolio website, showcasing my projects, skills, and backg
 
 ## Technologies Used
 - **HTML**: Structuring the content of the website
-- **CSS**: Styling and layout customization
+- **CSS**: Styling + layout customization
 - **JavaScript**: Adding interactivity
 
 ## Installation & Setup
