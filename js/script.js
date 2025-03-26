@@ -1,3 +1,4 @@
+/* Function adds functionality to Read more button in About me Section */
 document.getElementById('read-more-btn').addEventListener('click', function(){
     const shortBio = document.getElementById('short-bio');
     const longBio = document.getElementById('long-bio');
