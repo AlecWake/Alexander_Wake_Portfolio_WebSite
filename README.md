@@ -35,11 +35,11 @@ Explore different sections of the portfolio:
 - **Contact**: Get in touch via email or phone, and download my resume.
 
 ## Live Demo
-Check out the live version of my portfolio here: [Live Website](https://alecwake.github.io/) *(Hosted on GitHub Pages)*
+Check out the live version of my portfolio here: [Live Website]([https://alecwake.github.io/](https://alecwake.github.io/Alexander_Wake_Portfolio_WebSite/)) *(Hosted on GitHub Pages)*
 
 ## Project Links
 - **GitHub Repository**: [Portfolio Website Repo](https://github.com/AlecWake/Alexander_Wake_Portfolio_WebSite)
-- **Live Website**: [GitHub Pages](https://alecwake.github.io/)
+- **Live Website**: [GitHub Pages]([https://alecwake.github.io/](https://alecwake.github.io/Alexander_Wake_Portfolio_WebSite/))
 
 ## Contact
 - **Email**: [alec.wake@icloud.com](mailto:alec.wake@icloud.com)
